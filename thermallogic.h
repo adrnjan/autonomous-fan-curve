@@ -14,4 +14,4 @@ struct math_variables{
     float boost;
 };
 
-void calculate_fan_curve();
+void calculate_fan_curve(struct readings* state, struct math_variables* settings);
